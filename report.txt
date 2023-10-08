@@ -24,17 +24,31 @@ SOLUTIONS TO PART 2 "Server configuration"
 
 Question 8.1:
 
+dig @ik2218.ssvl.kth.se. group65.ik2218.ssvl.kth.se.
+
+
 Question 8.2:
+
+A and NS.
 
 Question 8.3:
 
+ns.group65.ik2218.ssvl.kth.se. and ns2.group65.ik2218.ssvl.kth.se.
+
 Question 8.4:
 
+PTR
+
 Question 8.5:
+
+ns.group65.ik2218.ssvl.kth.se. 
 
 * Section 9. Subzones and delgations
 
 Question 9.1:
+
+dig @ik2218.ssvl.kth.se. sub.group65.ik2218.ssvl.kth.se.
+
 
 Question 9.2:
 
