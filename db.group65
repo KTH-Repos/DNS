@@ -6,7 +6,7 @@
 $ORIGIN group65.ik2218.ssvl.kth.se.
 $TTL	120
 @	IN	SOA	ns.group65.ik2218.ssvl.kth.se. hostmaster.group65.ik2218.ssvl.kth.se. (
-		     2020091801   	; Serial
+		     2020091806   	; Serial
       			  21600		; Refresh
  			   3600		; Retry
   			2419200		; Expire
@@ -14,3 +14,12 @@ $TTL	120
 ;
 @	IN	NS	ns.group65.ik2218.ssvl.kth.se.
 ns	IN 	A	192.16.127.65 
+@	IN	NS	ns2.group65.ik2218.ssvl.kth.se.
+ns2	IN 	A	192.16.125.106 
+
+
+; Delegation for subdomain "america.group65.ik2218.ssvl.kth.se"
+america.group65.ik2218.ssvl.kth.se.	IN	NS	ns.america.group65.ik2218.ssvl.kth.se.
+ns.america.group65.ik2218.ssvl.kth.se.	IN	A	192.16.125.106
+
+

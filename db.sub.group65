@@ -14,5 +14,5 @@ $TTL	120
 ;
 @	IN	NS	ns.sub.group65.ik2218.ssvl.kth.se.
 ns	IN	A	192.16.127.65
-ns.sub.group65.ik2218.ssvl.kth.se.	IN	TXT	"group65 subzone"
+@   	IN    	TXT    	"group65 subzone"
 

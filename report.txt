@@ -13,59 +13,45 @@ There must be no line break, i.e., each info/answer is in a single line.
 GROUP INFORMATION
 -----------------
 
-Group number:
-Student name 1:
-Student name 2:
+Group number: 65
+Student name 1: Tomas Weldetinsae
+Student name 2: Imran Bahed Diva
 
 SOLUTIONS TO PART 2 "Server configuration"
 ------------------------------------
 
 * Section 8. Create your own zone
 
-Question 8.1:
+Question 8.1: dig +trace group65.ik2218.ssvl.kth.se.
 
-dig @ik2218.ssvl.kth.se. group65.ik2218.ssvl.kth.se.
+Question 8.2: SOA
 
+Question 8.3: ns.group65.ik2218.ssvl.kth.se. and ns2.group65.ik2218.ssvl.kth.se.
 
-Question 8.2:
+Question 8.4: PTR
 
-A and NS.
-
-Question 8.3:
-
-ns.group65.ik2218.ssvl.kth.se. and ns2.group65.ik2218.ssvl.kth.se.
-
-Question 8.4:
-
-PTR
-
-Question 8.5:
-
-ns.group65.ik2218.ssvl.kth.se. 
+Question 8.5: ns.group65.ik2218.ssvl.kth.se.
 
 * Section 9. Subzones and delgations
 
-Question 9.1:
+Question 9.1: dig +trace sub.group65.ik2218.ssvl.kth.se.
 
-dig @ik2218.ssvl.kth.se. sub.group65.ik2218.ssvl.kth.se.
+Question 9.2: 1.2.3.4
 
+Question 9.3: 9.10.11.12
 
-Question 9.2:
-
-Question 9.3:
-
-Question 9.4:
+Question 9.4: Maple syrup!
 
 * Section 10. Replication - masters and slaves
 
-Question 10.1:
+Question 10.1: dig @ns2.group65.ik2218.ssvl.kth.se. ns.group65.ik2218.ssvl.kth.se.
 
-Question 10.2:
+Question 10.2: dig @ns2.greenworld65.ik2218.ssvl.kth.se china.greenworld65.ik2218.ssvl.kth.se
 
-Question 10.3:
+Question 10.3: 55.56.57.58
 
-Question 10.4:
+Question 10.4: dig @ns2.greenworld65.ik2218.ssvl.kth.se russia.greenworld65.ik2218.ssvl.kth.se
 
-Question 10.5:
+Question 10.5: 99.98.97.96
 
-Question 10.6:
+Question 10.6: Plant more trees!
